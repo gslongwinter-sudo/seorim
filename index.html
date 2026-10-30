@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>서림아트센터 — 고객지원센터</title>
+<style>
+:root{font-family:Arial,'Apple SD Gothic Neo','Malgun Gothic',sans-serif;color:#20252b;background:#f4f6f8}*{box-sizing:border-box}body{margin:0}header{background:#fff;border-bottom:1px solid #dfe3e8}.wrap{max-width:900px;margin:auto;padding:0 22px}.top{display:flex;justify-content:space-between;align-items:center;padding:28px 0 22px}.brand{font-weight:800;letter-spacing:.09em;font-size:21px}.sub{font-size:12px;color:#7c8793;margin-top:7px}.mark{font-size:12px;color:#677483;border:1px solid #d8dee5;padding:9px 12px;border-radius:3px}.nav{border-top:1px solid #edf0f2;display:flex;gap:28px;font-size:13px;color:#7d8791}.nav span{padding:14px 0}.nav .active{border-bottom:2px solid #26384b;color:#24364a;font-weight:700}main{padding-top:45px!important;padding-bottom:80px!important}h1{font-size:26px;margin:0 0 10px;letter-spacing:-.06em}p.lead{font-size:13px;color:#6d7883;margin:0 0 27px}.stats{display:flex;gap:0;border:1px solid #dfe4e9;background:#fff;margin-bottom:26px}.stat{flex:1;text-align:center;padding:17px 8px;border-right:1px solid #edf0f2}.stat:last-child{border:0}.stat strong{display:block;font-size:22px}.stat small{color:#7e8893;font-size:11px;display:block;margin-top:5px}.toolbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}.tabs{display:flex;gap:5px}.tab{border:1px solid #dce2e8;background:white;color:#6e7a87;padding:10px 13px;font-size:12px;cursor:pointer;border-radius:3px}.tab.active{background:#283c50;color:#fff;border-color:#283c50}input{border:1px solid #dce2e8;background:white;padding:11px 12px;min-width:190px;flex:1;max-width:300px;outline-color:#73869b}.table{border-top:2px solid #33475a;background:#fff}.entry{border-bottom:1px solid #e6eaee}.entry-head{display:grid;grid-template-columns:57px 105px minmax(0,1fr) 84px 20px;gap:12px;align-items:center;width:100%;padding:19px 16px;text-align:left;background:#fff;border:0;cursor:pointer;font:inherit}.entry-head:hover{background:#f9fafb}.num{font-size:12px;color:#a0aab3}.kind{font-size:11px;font-weight:700;white-space:nowrap}.kind.public{color:#436b91}.kind.internal{color:#7c6293}.kind.notice{color:#8b7352}.entry-title{font-size:13px;font-weight:600;line-height:1.5}.status{font-size:11px;text-align:right;color:#6f7d89;white-space:nowrap}.status.wait{color:#b16d31;font-weight:700}.status.notice{color:#8b7352}.arrow{color:#9ca7b2;font-size:13px;text-align:right}.entry-body{display:none;padding:0 22px 24px 190px;background:#fbfcfd}.entry.open .entry-body{display:block}.entry.open .entry-head{background:#fbfcfd}.metadata{font-size:11px;color:#7c8995;padding:4px 0 16px}.section-label{font-size:11px;color:#647585;font-weight:700;margin-bottom:10px}.message{font-size:13px;line-height:1.95;white-space:pre-line;overflow-wrap:anywhere}.reply{border-top:1px solid #e0e6eb;margin-top:22px;padding-top:19px}.reply .message{color:#3c4853}.no-reply{font-size:12px;color:#9c7b5a;background:#faf6f1;padding:13px}.footnote{margin-top:18px;font-size:11px;color:#87929d;display:flex;justify-content:space-between}.empty{padding:36px;text-align:center;color:#8c96a0;font-size:13px}.footer{border-top:1px solid #dce2e8;padding:25px 0 45px;color:#9ba5af;font-size:11px}.notice-line{margin-top:25px;background:#e9edf1;padding:14px 18px;font-size:12px;color:#697787}.sr{position:absolute;left:-9999px}@media(max-width:650px){.wrap{padding:0 15px}.top{padding:23px 0 18px}.brand{font-size:17px}.mark{font-size:10px}.nav{gap:20px}main{padding-top:32px!important}h1{font-size:23px}.entry-head{grid-template-columns:30px minmax(0,1fr) 64px 13px;gap:8px;padding:16px 10px}.kind{grid-column:2;grid-row:1;font-size:10px}.entry-title{grid-column:2;grid-row:2}.num{grid-column:1;grid-row:1 / 3}.status{grid-column:3;grid-row:1 / 3}.arrow{grid-column:4;grid-row:1 / 3}.entry-body{padding:0 16px 22px 49px}.toolbar{display:block}.tabs{margin-bottom:10px}.tab{flex:1;padding:10px 5px}.toolbar input{width:100%;max-width:none}.stat strong{font-size:19px}}
+.nav{gap:26px;overflow-x:auto}.navlink{border:0;background:transparent;padding:14px 0;color:#7d8791;cursor:pointer;white-space:nowrap;font-size:13px}.navlink.active{border-bottom:2px solid #26384b;color:#24364a;font-weight:700}.page[hidden],.document[hidden],#survey-done[hidden],#survey-form[hidden]{display:none!important}.doc-warning{font-size:12px;color:#8a745b;border:1px solid #e4dacd;background:#f9f6f1;padding:12px 15px;margin-bottom:18px}.doc-list{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:24px}.doc-select{text-align:left;border:1px solid #dce2e8;background:white;padding:15px;cursor:pointer;display:flex;flex-direction:column;gap:7px;min-height:112px}.doc-select.selected{border:2px solid #344a5f;background:#f7f9fb;padding:14px}.doc-select span,.doc-select small{color:#7a8793;font-size:11px}.doc-select strong{font-size:13px}.paper{background:#fff;border:1px solid #e1e5e9;padding:34px 40px;box-shadow:0 5px 18px #1525350a}.paper-top{display:flex;justify-content:space-between;gap:12px;color:#87939d;font-size:10px;letter-spacing:.06em;border-bottom:1px solid #dce2e8;padding-bottom:17px}.paper h2{text-align:center;font-size:20px;margin:30px 0 12px}.paper-note{font-size:12px;color:#75818b;line-height:1.9}.form-grid{display:grid;grid-template-columns:130px 1fr;border-top:2px solid #344a5f;margin:28px 0}.form-grid>*{padding:13px 10px;border-bottom:1px solid #e5e9ed;font-size:13px}.form-grid span{background:#f6f8fa;color:#667482}.form-grid strong{font-weight:600}.doc-stamp{display:inline-block;border:2px solid #6e7f8c;color:#6e7f8c;transform:rotate(-7deg);padding:9px 15px;font-weight:700;font-size:13px;margin:5px 0 18px}.memo p{line-height:2;font-size:13px;border-bottom:1px solid #edf0f2;padding:13px 0}.checkrow{padding:13px;border-bottom:1px solid #e6ebee;font-size:13px}.survey-panel{background:white;border:1px solid #dfe4e9;padding:35px;max-width:680px}.survey-kicker{color:#8b96a0;font-size:11px;letter-spacing:.1em}.survey-panel h2{font-size:20px;margin:16px 0}.survey-hint{font-size:12px;color:#83909b;line-height:1.7}.stars{display:flex;gap:7px;margin:28px 0 8px}.stars button{border:0;background:none;color:#a5afb8;font-size:38px;cursor:pointer;padding:0 4px}.stars button.filled{color:#b99453}.rating-text{font-size:12px;color:#667583;margin-bottom:30px}.survey-label{font-size:13px;font-weight:700;display:block;margin-bottom:10px}textarea{width:100%;height:120px;resize:vertical;padding:12px;border:1px solid #dce2e8;font:inherit;font-size:13px}.primary,.secondary{border:0;background:#283c50;color:#fff;padding:13px 22px;cursor:pointer;margin-top:18px}.primary:disabled{opacity:.4;cursor:not-allowed}.secondary{background:#fff;border:1px solid #cdd5dd;color:#344a5f}.auto-reply{border-left:3px solid #8393a0;background:#f5f7f9;padding:15px 20px;margin-top:25px;font-size:13px;line-height:1.8}.auto-reply p{margin:10px 0}@media(max-width:650px){.nav{gap:17px}.navlink{font-size:12px}.doc-list{grid-template-columns:1fr}.doc-select{min-height:auto}.paper{padding:23px 18px}.form-grid{grid-template-columns:100px 1fr}.survey-panel{padding:24px 18px}}
+.reward{margin-top:24px;border:1px solid #d8e0e7;background:#fcfcfd;padding:20px;animation:pop .45s ease both}.reward-tag{font-size:11px;letter-spacing:.1em;color:#788999}.reward h3{font-size:17px;margin:12px 0}.reward p{font-size:13px;line-height:1.9;white-space:pre-line}.reward-stamp{display:inline-block;border:2px solid #788999;color:#788999;padding:5px 10px;transform:rotate(-5deg);font-size:12px;font-weight:bold}.spark{font-size:26px;animation:pop .5s ease both}@keyframes pop{0%{opacity:0;transform:scale(.85) translateY(12px)}75%{transform:scale(1.025)}100%{opacity:1;transform:scale(1)}}@media(prefers-reduced-motion:reduce){.reward,.spark{animation:none}} .chat-thread{margin-top:18px;padding:18px 12px;background:#f0f3f6;border-radius:15px}.chat-time{text-align:center;font-size:11px;color:#89939c;margin:18px 0 12px}.chat-line{display:flex;flex-direction:column;margin:8px 0}.chat-left{align-items:flex-start}.chat-right{align-items:flex-end}.chat-who{font-size:11px;color:#667480;margin-bottom:4px}.chat-bubble{white-space:pre-line;max-width:80%;font-size:13px;line-height:1.65;background:#fff;border:1px solid #e1e6eb;padding:9px 12px;border-radius:13px}.chat-right .chat-bubble{background:#dce8ef;border-color:#dce8ef}.reward .transcript-text{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;line-height:2.1;white-space:pre-line;margin-top:20px;padding:16px;background:#f6f7f9;border-left:3px solid #9aaab8}.reward .scene-text{font-size:14px;line-height:2.15;white-space:pre-line;margin-top:20px;max-width:560px}</style><style>
+.notify-wrap{position:relative;margin-left:auto}.notify-button{position:relative;border:1px solid #dce2e8;background:#fff;color:#46596b;border-radius:4px;padding:7px 11px;cursor:pointer;font-size:18px;line-height:1}.notify-dot{position:absolute;right:5px;top:4px;width:7px;height:7px;border-radius:50%;background:#b65d50}.notify-panel{position:absolute;z-index:20;right:0;top:43px;width:min(340px,calc(100vw - 30px));background:#fff;border:1px solid #d9e0e6;box-shadow:0 12px 32px #26384b24;padding:17px;text-align:left}.notify-panel[hidden]{display:none!important}.notify-heading{font-size:12px;font-weight:700;color:#34495c;margin-bottom:13px}.notify-label{font-size:11px;color:#7b8793;margin-bottom:8px}.notify-msg{font-size:13px;line-height:1.75;white-space:pre-line}.notify-reply{margin-top:13px;border-top:1px solid #e9edf0;padding-top:12px}.staff-reaction{margin-top:18px;border-left:3px solid #9aa9b6;background:#f5f7f9;padding:12px 16px;font-size:12px;line-height:1.8;color:#465563}.staff-reaction strong{display:block;font-size:11px;margin-bottom:4px;color:#778694}
+
+/* Header: discreet, consistently aligned utility actions */
+.top{gap:18px}.top>div:first-child{min-width:0;flex:1}
+.header-actions{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.notify-wrap{margin-left:0;position:relative;display:flex;align-items:center}
+.notify-button{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;border:1px solid #dce2e8;border-radius:6px;background:#fff;color:#586a7b;cursor:pointer;transition:background .15s,border-color .15s}
+.notify-button:hover,.notify-button[aria-expanded="true"]{background:#f2f5f8;border-color:#aebcc9}
+.notify-button:focus-visible{outline:2px solid #536e89;outline-offset:3px}
+.notify-button svg{display:block;flex-shrink:0}
+.notify-dot{right:6px;top:5px;width:7px;height:7px;border:1px solid white}
+.notify-dot[hidden]{display:none!important}
+.notify-panel{top:calc(100% + 10px);right:0;border-radius:6px}
+.staff-response{margin-top:22px}
+.staff-reaction{margin:0;border:1px solid #dce3e9;border-left:3px solid #9aa9b6;background:#f6f8fa;padding:16px 18px;font-size:13px}
+.staff-reaction strong{font-size:12px;color:#526476;margin-bottom:6px}
+@media(max-width:650px){.top{gap:10px}.header-actions{gap:8px}.notify-button{width:34px;height:34px}.mark{padding:8px 9px;font-size:10px}.brand{font-size:16px;letter-spacing:.035em}.sub{font-size:9px;letter-spacing:0}.notify-panel{right:-70px;width:min(320px,calc(100vw - 30px))}}
+@media(max-width:380px){.mark{display:none}.notify-panel{right:0}}
+
+.notify-msg .no-break{white-space:nowrap}.notify-panel{width:min(365px,calc(100vw - 30px))}@media(max-width:650px){.notify-panel{width:min(345px,calc(100vw - 24px))}}
+/* Typography and responsive line-break polish */
+.entry-title,.message,.reply .message,.paper,.memo p,.reward p,.staff-reaction,.survey-hint,.notify-msg,.notice-line,.doc-warning,.paper-note{word-break:keep-all;overflow-wrap:break-word}
+.entry-head{grid-template-columns:57px 105px minmax(0,1fr) 84px 20px}
+.entry-title{min-width:0;text-wrap:pretty}
+.lead,.survey-hint,.notice-line,.paper-note,.doc-warning{text-wrap:pretty}
+.notify-panel{width:min(390px,calc(100vw - 30px));max-width:calc(100vw - 24px)}
+.notify-msg{white-space:normal;line-height:1.85}
+.notify-msg .no-break{white-space:nowrap}
+.notify-heading,.notify-label,.mark,.navlink,.tab,.status,.kind{white-space:nowrap}
+.staff-reaction{line-height:1.85}
+.footnote{gap:12px;align-items:flex-start;flex-wrap:wrap;line-height:1.6}
+.form-grid strong,.form-grid span{word-break:keep-all;overflow-wrap:break-word;line-height:1.6}
+.chat-bubble{word-break:keep-all;overflow-wrap:break-word}
+@media(max-width:650px){
+ .notify-panel{width:min(365px,calc(100vw - 24px));right:-70px;padding:16px}
+ .entry-head{grid-template-columns:30px minmax(0,1fr) 64px 13px}
+ .stats .stat{min-width:0;padding:14px 4px}
+ .stats .stat small{line-height:1.4;word-break:keep-all}
+ .footnote{flex-direction:column;gap:4px}
+ .reward{padding:16px}
+ .reward .transcript-text{padding:12px;overflow-wrap:break-word;white-space:pre-wrap}
+ .chat-bubble{max-width:88%}
+ .doc-select strong{line-height:1.55}
+}
+@media(max-width:380px){
+ .notify-panel{right:0}
+ .top{gap:8px}
+ .header-actions{gap:6px}
+ .sub{font-size:8px}
+ .stat strong{font-size:17px}
+ .stat small{font-size:10px}
+ .nav{gap:15px}
+ .navlink{font-size:11px}
+ .tabs{gap:4px}
+ .tab{font-size:11px}
+}
+</style></head><body><header><div class="wrap"><div class="top"><div><div class="brand">서림아트센터</div><div class="sub">SEORIM ARTS CENTER · CUSTOMER SERVICE</div></div><div class="header-actions"><div class="notify-wrap"><button class="notify-button" id="notify-toggle" type="button" aria-label="읽지 않은 내부 알림 1건" aria-expanded="false" aria-controls="notify-panel"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"/><path d="M10 21h4"/></svg><span class="notify-dot" id="notify-dot"></span></button><div class="notify-panel" id="notify-panel" hidden><div class="notify-heading">내부 알림 · 1건</div><div class="notify-label">운영팀 공지</div><div class="notify-msg">두 분 관련 문의는 가급적 담당자 간 공유 후 <span class="no-break">답변 바랍니다.</span></div><div class="notify-reply"><div class="notify-label">담당자 답변</div><div class="notify-msg">저 혼자 담당하고 있는데요.</div></div></div></div><div class="mark">고객지원센터</div></div></div><div class="nav"><button class="navlink active" data-page="inquiries">문의 내역</button><button class="navlink" data-page="documents">내부 운영 문서</button><button class="navlink" data-page="survey">만족도 조사</button></div></div></header><main class="wrap"><section id="inquiries" class="page"><h1>문의 내역</h1><p class="lead">공연 및 시설 이용에 관한 접수 내역입니다.</p><div class="stats"><div class="stat"><strong>16</strong><small>전체 문의</small></div><div class="stat"><strong>14</strong><small>답변 완료</small></div><div class="stat"><strong>1</strong><small>공지</small></div><div class="stat"><strong>1</strong><small>답변 대기</small></div></div><div class="toolbar"><div class="tabs" role="group" aria-label="문의 분류"><button class="tab active" data-filter="all">전체</button><button class="tab" data-filter="public">♧ 관객 문의</button><button class="tab" data-filter="internal">▤ 내부 문의</button></div><input id="search" type="search" placeholder="제목 및 내용 검색" aria-label="문의 검색"></div><div id="list" class="table"></div><div class="footnote"><span id="count"></span><span>제목을 선택하면 문의 내용을 확인할 수 있습니다.</span></div><div class="notice-line">본 페이지는 공연 관련 문의 내역을 열람하기 위한 게시판입니다.</div></section>
+<section id="documents" class="page" hidden><h1>내부 운영 문서</h1><p class="lead">공연 운영 사무국 · 문서 보관함</p><div class="doc-warning">내부 자료 · 열람 전용 · 외부 배포 금지</div>
+<div class="doc-list"><button class="doc-select selected" data-doc="rental"><span>DOC-014</span><strong>공연장 추가 대관 신청서</strong><small>대관 담당자 확인 완료</small></button><button class="doc-select" data-doc="handover"><span>DOC-015</span><strong>고객지원센터 업무 인수인계</strong><small>운영팀 내부 참고용</small></button><button class="doc-select" data-doc="checklist"><span>DOC-016</span><strong>공연 종료 후 시설 점검표</strong><small>현장 운영팀</small></button></div>
+<article id="doc-rental" class="paper document"><div class="paper-top"><span>SEORIM ARTS CENTER</span><span>대관운영팀 · 확인 완료</span></div><h2>추가 시설 사용 신청서</h2><p class="paper-note">접수 번호 SAC-R-014 · 공연 종료 후 추가 사용</p><div class="form-grid"><span>신청자</span><strong>강비오 · 최정요</strong><span>사용 공간</span><strong>대공연장 무대</strong><span>사용 시간</span><strong>본 공연 종료 후 2시간</strong><span>사용 목적</span><strong>앙코르</strong><span>예상 관객 수</span><strong>2명</strong><span>일반 관객 입장</span><strong>없음</strong></div><div class="doc-stamp">내용 확인 완료</div><p class="paper-note">※ 최초 신청서의 예상 관객 수에 대해 재확인하였으며, 기재 오류 없음.</p><p class="paper-note">※ 추가 사용 시간은 별도 대관으로 처리하며, 현장 인력 및 시설 운영 일정을 사전 조정함.</p></article>
+<article id="doc-handover" class="paper document" hidden><div class="paper-top"><span>SEORIM ARTS CENTER</span><span>내부 참고용</span></div><h2>고객지원센터 업무 인수인계</h2><p class="paper-note">문서 번호 SAC-CS-015 · 담당자 확인 사항</p><div class="memo"><p><b>1. 반복 문의 처리</b><br>최근 동일 이용자 간 식사 제공, 대기실 온도 및 개인 물품 보관에 관한 문의가 반복 접수됨. 시설 고장 또는 공식 운영 규정 위반이 확인되지 않은 경우 당사자 간 협의 안내.</p><p><b>2. 익명 문의</b><br>내부 문의의 작성자 신원은 공개하지 않음. 단, 문체와 상황 설명만으로 문의 당사자가 서로를 특정하는 것으로 보임. 운영팀은 이에 관여하지 않음.</p><p><b>3. 앙코르 관련</b><br>공연 종료 후 추가 연주는 정식 대관으로 전환됨. 예상 관객 수 2명은 오기 아님. 재확인 불필요.</p><p><b>4. 후임 담당자 참고</b><br>‘당사자 간 협의’ 안내 이후 추가 사실관계 정정 문의가 접수될 수 있음. 정정 요청을 접수하더라도 개인 간 분쟁의 판단은 하지 말 것.</p></div><p class="paper-note">업무 협조에 감사드립니다.</p></article>
+<article id="doc-checklist" class="paper document" hidden><div class="paper-top"><span>SEORIM ARTS CENTER</span><span>현장 운영팀</span></div><h2>공연 종료 후 시설 점검표</h2><p class="paper-note">추가 대관 일정 반영</p><div class="checkrow">☑ 객석 관객 퇴장 확인</div><div class="checkrow">☑ 무대 추가 사용 신청 확인</div><div class="checkrow">☑ 추가 사용 종료 시각 현장 공유</div><div class="checkrow">☐ 무대 조명 및 전원 점검 (대관 종료 후)</div><div class="checkrow">☐ 출입문 잠금 확인 (대관 종료 후)</div><p class="paper-note">특이 사항: 관객 퇴장 후 연주 지속 예정. 추가 사용 종료 전 무대 정리 시작하지 않도록 유의.</p></article></section>
+<section id="survey" class="page" hidden><h1>고객 만족도 조사</h1><p class="lead">고객지원센터 이용 경험에 대한 의견을 들려주세요.</p><div class="survey-panel" id="survey-form"><div class="survey-kicker">SEORIM ARTS CENTER · SERVICE FEEDBACK</div><h2>고객지원센터 이용에 만족하셨나요?</h2><p class="survey-hint">평가 결과는 운영 서비스 개선을 위한 참고 자료로 사용됩니다.</p><div class="stars" role="group" aria-label="만족도 별점"><button data-rating="1" aria-label="1점">☆</button><button data-rating="2" aria-label="2점">☆</button><button data-rating="3" aria-label="3점">☆</button><button data-rating="4" aria-label="4점">☆</button><button data-rating="5" aria-label="5점">☆</button></div><div id="rating-text" class="rating-text">별점을 선택해 주세요.</div><label class="survey-label" for="feedback">추가 의견 (선택)</label><textarea id="feedback" maxlength="500" placeholder="서비스에 대한 의견을 자유롭게 작성해 주세요."></textarea><button id="submit-survey" class="primary" disabled>평가 제출</button></div><div class="survey-panel" id="survey-done" hidden><div class="survey-kicker">접수 완료</div><h2>소중한 의견 감사합니다.</h2><p>고객님의 의견은 서비스 개선을 위한 참고 자료로 활용하겠습니다.</p><div class="spark" aria-hidden="true">✦ ✧ ✦</div><div id="reward" class="reward" aria-live="polite"></div><div id="survey-staff-response" class="staff-response" aria-live="polite"></div><button id="survey-again" class="secondary">다시 평가하기</button></div></section></main><footer class="footer"><div class="wrap">서림아트센터 · 공연 운영 사무국</div></footer>
+<script>
+const data=[
+['public','공연장 주차 및 출차 관련 문의','일반 관객',`안녕하세요. 지난 공연 잘 관람했습니다. 다음 공연에도 방문할 예정인데, 공연 종료 후 주차장 출차에 어느 정도 시간이 소요되는지 궁금합니다.`,`안녕하세요. 공연 운영팀입니다.\n\n공연 종료 후 출차에는 교통 상황에 따라 약간의 시간이 소요될 수 있습니다. 가급적 대중교통 이용을 권장드립니다.\n\n감사합니다.`],
+['public','공연 중 두 아티스트의 시선 처리에 관하여','관객',`안녕하세요. 공연을 아주 인상 깊게 관람했습니다.\n\n다름이 아니라, 연주 중 강비오 피아니스트께서 최정요 지휘자님을 바라보시는 장면이 몇 차례 있었는데요. 해당 부분이 사전에 합의된 무대 연출인지 궁금합니다.\n\n혹시 아니라면 그 이유도 알 수 있을까요?`,`안녕하세요. 공연 운영팀입니다.\n\n문의하신 장면은 별도로 기획된 무대 연출이 아닙니다. 아티스트의 연주 중 행동에 대한 구체적인 해석은 안내해 드리기 어려운 점 양해 부탁드립니다.\n\n감사합니다.`],
+['public','프로그램북 오탈자 관련 문의','관객',`프로그램북의 아티스트 소개에서 강비오 피아니스트와 최정요 지휘자님의 관계가 '오랜 음악적 동료'라고 기재되어 있습니다.\n\n'오랜 연인'의 오탈자가 아닌지 확인 부탁드립니다.`,`안녕하세요. 공연 운영팀입니다.\n\n확인 결과 오탈자가 아닙니다.\n\n감사합니다.`],
+['public','공연 종료 후 앙코르 관련 문의','관객',`공연이 끝난 뒤 관객들의 앙코르 요청에도 추가 연주가 없었는데, 두 분이 관객 퇴장 후 다시 무대에서 연주하셨다는 후기를 보았습니다.\n\n앙코르를 관객에게 공개하지 않은 특별한 이유가 있나요? 다음 공연에서는 관객도 함께 감상할 수 있으면 좋겠습니다.`,`안녕하세요. 공연 운영팀입니다.\n\n해당 공연의 공식 프로그램에는 앙코르가 포함되어 있지 않았습니다.\n\n공연 종료 후 이루어진 연주는 공식 공연 일정에 포함되지 않은 것으로 확인됩니다.\n\n감사합니다.`],
+['internal','아티스트 대기실 식사 제공 관련 문의','익명',`안녕하세요.\n\n대기실 이용자가 명시적으로 거부했음에도 다른 이용자가 임의로 식사를 주문하는 경우, 해당 행위를 제한할 수 있는 규정이 있는지 문의드립니다.\n\n참고로 해당 이용자는 식사를 요청한 적이 없으며, 현재까지 동일한 상황이 세 차례 반복되었습니다.`,`안녕하세요. 공연 운영팀입니다.\n\n아티스트 대기실 내 식사 제공 자체를 제한하는 별도의 규정은 없습니다.\n\n다만 개인 간 식사 제공과 관련한 사항은 당사자 간 협의를 부탁드립니다.`],
+['internal','식사 제공 관련 기존 문의 정정 요청','익명',`앞선 문의에 사실과 다른 부분이 있어 정정을 요청합니다.\n\n해당 이용자는 당일 오전부터 아무것도 먹지 않은 상태였으며, 제공된 식사는 건강을 고려한 조치였습니다.\n\n또한 세 차례 모두 식사 주문 전 의사를 확인하였습니다. 답변은 없었습니다.`,`안녕하세요. 공연 운영팀입니다.\n\n응답이 없었다는 사실만으로 식사 제공에 동의한 것으로 판단하기는 어렵습니다.\n\n해당 사안은 당사자 간 직접 협의해 주시기 바랍니다.\n\n감사합니다.`],
+['internal','공연장 무대 사용 시간 준수 요청','공연장 시설 담당자',`안녕하세요. 공연장 시설 운영 담당자입니다.\n\n최근 두 아티스트께서 공연 종료 후 예정에 없던 추가 연주를 진행하시는 사례가 반복되고 있습니다.\n\n이로 인해 무대 정리 및 시설 점검이 지연되고, 현장 직원들의 퇴근 시간에도 영향을 미치고 있습니다.\n\n두 분의 음악적 열정은 충분히 이해하나, 향후에는 사전에 사용 시간을 협의해 주시기를 요청드립니다.`,`안녕하세요. 공연 운영팀입니다.\n\n현장 운영에 불편을 드린 점 사과드립니다.\n\n해당 사항은 두 아티스트 및 담당 매니저에게 전달하였으며, 향후 추가 사용이 필요한 경우 정식 대관 절차를 진행하도록 안내하였습니다.\n\n감사합니다.`],
+['internal','대기실 냉방 온도 조정 요청','익명',`대기실 냉방 온도를 24도로 고정해 주시기 바랍니다.\n\n동료 이용자가 임의로 설정 온도를 20도까지 낮추는 일이 반복되고 있습니다. 연주자의 손이 차가워질 경우 공연에 지장을 줄 수 있습니다.`,`안녕하세요. 공연 운영팀입니다.\n\n대기실 냉방 온도는 이용자 간 협의 후 조정해 주시기 바랍니다.\n\n감사합니다.`],
+['internal','대기실 냉방 온도 관련 재문의','익명',`24도는 덥습니다.\n\n그리고 손이 차가워질 경우를 걱정한다면서 본인이 제 손을 잡고 있으면 된다고 하는 것은 합리적인 해결책이 아니라고 생각합니다.\n\n21도로 조정 요청드립니다.`,`안녕하세요.\n\n대기실 냉방 온도는 이용자 간 협의 후 조정해 주시기 바랍니다.\n\n감사합니다.`],
+['public','아티스트 개인 물품 관련 문의','관객',`지난 공연 사진에서 최정요 지휘자님께서 강비오 피아니스트의 외투를 들고 계신 모습을 보았습니다.\n\n혹시 두 분의 의상 협찬 브랜드가 동일한지 궁금합니다. 최정요 지휘자님께서 착용하신 외투와 강비오 피아니스트께서 들고 계신 외투가 같은 제품으로 보여 문의드립니다.`,`안녕하세요. 공연 운영팀입니다.\n\n해당 외투는 협찬 제품이 아닌 개인 소유 물품으로 확인됩니다.\n\n감사합니다.`],
+['internal','공연장 내 개인 물품 이동 관련 문의','익명',`동료 아티스트가 본인의 외투, 가방, 휴대전화를 허락 없이 가져가 보관하는 경우 시설 관리 규정상 문제가 없는지 궁금합니다.\n\n물건을 찾으려면 매번 해당 동료에게 연락해야 하는 상황입니다.`,`안녕하세요. 공연 운영팀입니다.\n\n개인 물품의 보관 및 이동에 관한 사항은 당사자 간 협의해 주시기 바랍니다.\n\n감사합니다.`],
+['internal','개인 물품 보관 관련 사실관계 정정','익명',`앞선 문의와 관련하여 말씀드립니다.\n\n해당 물품은 분실 방지를 위해 보관한 것이며, 당사자가 매번 물건을 두고 이동하는 습관이 있어 불가피한 조치였습니다.\n\n참고로 휴대전화는 본인이 직접 제게 맡겼습니다.`,`안녕하세요.\n\n본 고객센터에서는 아티스트 개인 물품에 관한 사실관계 확인 및 분쟁 조정을 진행하지 않습니다.\n\n감사합니다.`],
+['internal','공연장 추가 대관 신청 내용 확인 요청','공연장 대관 담당자',`안녕하세요. 공연장 대관 담당자입니다.\n\n금일 접수된 두 아티스트의 추가 대관 신청서와 관련하여 확인 요청드립니다.\n\n사용 목적: 앙코르\n사용 시간: 공연 종료 후 2시간\n예상 관객 수: 2명\n\n해당 내용이 정확한지 확인 부탁드립니다. 특히 관객 수가 잘못 기재된 것으로 보여 문의드립니다.`,`안녕하세요. 공연 운영팀입니다.\n\n두 아티스트에게 직접 확인한 결과, 신청 내용에 오류는 없습니다.\n\n감사합니다.`],
+['notice','[공지] 고객지원센터 이용 안내','공연 운영팀',`안녕하세요. 공연 운영팀입니다.\n\n최근 공연 운영과 무관한 문의 및 동일 사안에 대한 반복 문의가 다수 접수되고 있습니다.\n\n본 고객지원센터는 공연 예매, 시설 이용 및 공식 일정에 관한 문의를 처리하기 위해 운영되고 있습니다.\n\n아티스트 개인 간의 의견 차이, 식사 여부, 냉방 온도 및 개인 물품 보관에 관한 사항은 당사자 간 직접 해결해 주시기 바랍니다.\n\n원활한 운영을 위해 협조 부탁드립니다.`,null],
+['public','앙코르 공연 예매 방법 문의','관객',`안녕하세요. 공연장 추가 대관 신청서에 관객 수가 2명으로 기재되어 있다고 들었습니다.\n\n혹시 해당 공연은 별도 추첨을 통해 관객을 선정하는 방식인가요?\n\n경쟁률이 높을 것으로 예상되어 미리 문의드립니다.\n\n감사합니다.`,`해당 공연은 일반 관객을 대상으로 진행되지 않습니다.`],
+['public','앙코르 공연 관객 선정 기준 문의','관객',`그럼 그 두 명은 어떻게 선정된 건가요?`,null]
+];
+let filter='all',term='';const list=document.getElementById('list');function el(tag,cls,txt){const x=document.createElement(tag);if(cls)x.className=cls;if(txt!==undefined)x.textContent=txt;return x}
+function render(){list.replaceChildren();let n=0;data.forEach((d,i)=>{const [type,title,author,body,reply]=d;if(filter!=='all'&&type!==filter&&type!=='notice')return;if(term&&!([title,author,body,reply||''].join(' ').toLowerCase().includes(term)))return;n++;const row=el('div','entry');const head=el('button','entry-head');head.type='button';head.setAttribute('aria-expanded','false');head.append(el('span','num',String(i+1).padStart(2,'0')),el('span','kind '+type,type==='public'?'♧ 관객 문의':type==='internal'?'▤ 내부 관계자':'◆ 운영 공지'),el('span','entry-title',title),el('span','status '+(i===15?'wait':type==='notice'?'notice':''),i===15?'답변 대기':type==='notice'?'공지':'답변 완료'),el('span','arrow','⌄'));const detail=el('div','entry-body');detail.append(el('div','metadata','작성자  ·  '+author),el('div','section-label',type==='notice'?'공지 내용':'문의 내용'),el('div','message',body));if(type!=='notice'){const r=el('div','reply');r.append(el('div','section-label','운영팀 답변'),el('div',reply===null?'no-reply':'message',reply===null?'답변이 등록되지 않았습니다.':reply));detail.append(r)}head.addEventListener('click',()=>{const open=row.classList.toggle('open');head.setAttribute('aria-expanded',String(open));head.lastChild.textContent=open?'⌃':'⌄'});row.append(head,detail);list.append(row)});if(!n)list.append(el('div','empty','검색 결과가 없습니다.'));document.getElementById('count').textContent=`총 ${n}건 표시`}
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('active',x===b));render()}));document.getElementById('search').addEventListener('input',e=>{term=e.target.value.trim().toLowerCase();render()});render();
+// Internal notification easter egg
+const notifyToggle=document.getElementById('notify-toggle');
+const notifyPanel=document.getElementById('notify-panel');
+notifyToggle.addEventListener('click',()=>{const show=notifyPanel.hidden;notifyPanel.hidden=!show;notifyToggle.setAttribute('aria-expanded',String(show));document.getElementById('notify-dot').hidden=true;notifyToggle.setAttribute('aria-label','내부 알림');});
+document.addEventListener('click',e=>{if(!e.target.closest('.notify-wrap')){notifyPanel.hidden=true;notifyToggle.setAttribute('aria-expanded','false')}});
+// Section navigation
+const pages=document.querySelectorAll('.page');document.querySelectorAll('.navlink').forEach(b=>b.addEventListener('click',()=>{pages.forEach(p=>p.hidden=p.id!==b.dataset.page);document.querySelectorAll('.navlink').forEach(x=>x.classList.toggle('active',x===b));window.scrollTo(0,0)}));
+// Document switcher
+document.querySelectorAll('.doc-select').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.doc-select').forEach(x=>x.classList.toggle('selected',x===b));document.querySelectorAll('.document').forEach(x=>x.hidden=x.id!=='doc-'+b.dataset.doc)}));
+// Local-only feedback
+let rating=0;const starButtons=[...document.querySelectorAll('.stars button')];starButtons.forEach(b=>b.addEventListener('click',()=>{rating=Number(b.dataset.rating);starButtons.forEach(x=>{const on=Number(x.dataset.rating)<=rating;x.classList.toggle('filled',on);x.textContent=on?'★':'☆';x.setAttribute('aria-pressed',String(Number(x.dataset.rating)===rating))});document.getElementById('rating-text').textContent=rating+'점 / 5점';document.getElementById('submit-survey').disabled=false}));document.getElementById('submit-survey').addEventListener('click',()=>{if(!rating)return;document.getElementById('survey-form').hidden=true;document.getElementById('survey-done').hidden=false;const rewards={
+1:{title:'담당자 개인 메모',stamp:'개인 메모 / 비공개',body:`오늘 진짜 퇴사하고 싶었다.
+
+아침에는 식사 문제로 문의가 들어오더니 오후에는 에어컨 온도 때문에 두 건이 연달아 들어왔다. 아니, 같은 대기실에 계시면서 왜 서로 말을 안 하시는 거지?
+
+답변에 '당사자 간 협의'라고 썼더니 다시 문의가 왔다. 협의가 안 되니까 문의를 하신 거겠지. 그건 알겠는데, 그렇다고 제가 두 분 사이에 끼어서 에어컨 리모컨을 들고 있을 수는 없잖아요.
+
+퇴근하면서 두 분을 마주쳤다. 손잡고 가시더라.
+
+내일은 연차 쓸까.`},
+2:{title:'현장 담당자 개인 메모',stamp:'개인 기록 / 비공개',body:`공연 끝나고 관계자 통로에서 두 분을 봤다.
+
+강비오 피아니스트가 최정요 지휘자님 코트 단추를 잠가 주고 있었다. 지휘자님은 됐다고 하면서도 얌전히 서 계셨다. 그때는 그냥 사이가 참 좋으시구나 했다.
+
+그런데 내가 모퉁이를 도니까 두 분이 동시에 떨어지셨다. 인사도 어찌나 크게 하시던지. 내가 뭘 봤다고 그러시지.
+
+몇 걸음 가다가 뒤돌아봤는데 다시 손잡고 계셨다.
+
+...아, 그렇구나.
+
+일단 다른 직원들한테는 말 안 해야겠다.`},
+3:{title:'인수인계 메모 — 삭제된 문장',stamp:'내부 열람',body:`[업무 인수인계 참고사항]
+
+두 아티스트가 각각 익명으로 제출한 문의는 내용상 서로 연관되어 있음.
+
+※ 아래 문장은 최종 인수인계본에서 삭제됨.
+
+「어차피 두 분 다 상대방이 쓴 걸 알고 있는 것 같은데, 왜 여기서 대화하시는지 모르겠습니다.」`},
+4:{title:'강비오 · 최정요 문자',stamp:'개인 메시지 / 비공개',kind:'chat',messages:[
+{time:'12:18',who:"강비오",text:"너 또 밥 시켰어?"},
+{who:"최정요",text:"응."},
+{who:"강비오",text:"나 안 먹는다고 했잖아."},
+{who:"최정요",text:"안 먹는다고는 안 했어."},
+{who:"강비오",text:"대답 안 했으면 안 먹는다는 뜻이지."},
+{who:"최정요",text:"그럼 먹는다고 할 때까지 물어볼게."},
+{who:"강비오",text:"너 진짜 말 안 통한다."},
+{who:"최정요",text:"메뉴 바꿔줄까?"},
+{who:"강비오",text:"뭐 시켰는데."},
+{who:"최정요",text:"네가 좋아하는 거."},
+{who:"강비오",text:"뭔데."},
+{who:"최정요",text:"와서 봐."},
+{who:"강비오",text:"안 먹는다니까."},
+{who:"최정요",text:"알았어. 그럼 내 거만 시킬게."},
+{who:"강비오",text:"이미 시켰다며"},
+{who:"최정요",text:"응. 두 개."},
+{who:"강비오",text:"하"},
+{who:"최정요",text:"식기 전에 와."}]},
+5:{title:'공연 종료 후 대화 녹취록',stamp:'녹취 일부 · 음성 기록',kind:'transcript',body:`최정요: 오늘은 진짜 끝이야.
+강비오: 알아. 다음부터는 두 시간 더 빌렸어.
+최정요: 두 시간씩이나?
+강비오: 모자라?
+최정요: ……아니.
+강비오: 그럼 됐네.
+최정요: 근데 신청서에 관객 두 명은 뭐야?
+강비오: 너랑 나.
+최정요: 무대 위에 있는데 무슨 관객이야.
+강비오: 네가 연주할 땐 내가 듣고, 내가 연주할 땐 네가 들으면 되잖아.
+최정요: ……그건 그렇네.
+강비오: 오늘도 한 곡만 더 할래?
+최정요: 한 곡만.
+강비오: 응. 한 곡만.`}
+
+
+};const r=rewards[rating];const reward=document.getElementById('reward');reward.replaceChildren();const tag=document.createElement('div');tag.className='reward-tag';tag.textContent='설문 참여 혜택';const title=document.createElement('h3');title.textContent=r.title;const stamp=document.createElement('span');stamp.className='reward-stamp';stamp.textContent=r.stamp;reward.append(tag,title,stamp);const reactions={1:'개선 의견을 확인하겠습니다. 내일 출근해서요.',2:'평가 내용은 확인했습니다. 개인적인 사정은 평가에 포함하지 말아 주세요.',3:'보통이라는 평가에 이렇게 안도한 건 처음입니다.',4:'좋은 평가 감사합니다. 식사 관련 문의는 현재도 접수 중입니다.',5:'감사합니다. 이 평가가 인사고과에 반영되었으면 좋겠습니다.'};const reaction=document.createElement('div');reaction.className='staff-reaction';const reactionLabel=document.createElement('strong');reactionLabel.textContent='운영 담당자 한마디';const reactionBody=document.createElement('span');reactionBody.textContent=reactions[rating];reaction.append(reactionLabel,reactionBody);if(r.kind==='chat'){const chat=document.createElement('div');chat.className='chat-thread';let last='';for(const m of r.messages){if(m.time){const t=document.createElement('div');t.className='chat-time';t.textContent=m.time;chat.append(t)}const line=document.createElement('div');line.className='chat-line '+(m.who==='강비오'?'chat-right':'chat-left');if(last!==m.who){const who=document.createElement('div');who.className='chat-who';who.textContent=m.who;line.append(who)}const bubble=document.createElement('div');bubble.className='chat-bubble';bubble.textContent=m.text;line.append(bubble);chat.append(line);last=m.who}reward.append(chat)}else{const body=document.createElement('p');body.className=r.kind==='transcript'?'transcript-text':r.kind==='scene'?'scene-text':'';body.textContent=r.body;reward.append(body)}const staffResponse=document.getElementById('survey-staff-response');staffResponse.replaceChildren(reaction);document.getElementById('survey-done').scrollIntoView({behavior:'smooth',block:'start'});});document.getElementById('survey-again').addEventListener('click',()=>{rating=0;document.getElementById('feedback').value='';starButtons.forEach(x=>{x.classList.remove('filled');x.textContent='☆'});document.getElementById('rating-text').textContent='별점을 선택해 주세요.';document.getElementById('submit-survey').disabled=true;document.getElementById('survey-form').hidden=false;document.getElementById('survey-done').hidden=true});
+</script></body></html>
